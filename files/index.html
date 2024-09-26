@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div id="title">
+        <img class="pokeballs" src="assets/pokeball.jpg">
+        <h1>WHO'S THAT POKEMON</h1>
+        <img class="pokeballs" src="assets/pokeball.jpg">
+    </div>
+      <input id="search-bar" type="text">
+      <button id="btn">I choose you!</button>
+    </header>
+    <main>
+        <h3 id="pokemon-name"></h3>
+        <div id="pokemon-info">
+        <ul id="stats">
+            <li id="health"></li>
+            <li id="attack"></li>
+            <li id="defense"></li>
+            <li id="sp-attack"></li>
+            <li id="sp-def"></li>
+            <li id="speed"></li>
+        </ul>
+        <div id ="pokemon-images">
+            <div id="normal-sprites">
+            <img class="sprite" id="poke-img-front">
+            <img class="sprite" id="poke-img-back">
+        </div>
+        <div id="shiny-sprites">
+            <img class="sprite" id="poke-img-front-shiny">
+            <img class="sprite" id="poke-img-back-shiny">
+        </div>
+        </div>
+        <div id="gen-info">
+            <p id="poke-num"></p>
+            <p id="poke-type"></p>
+            <p id="height"></p>
+            <p id="weight"></p>
+            <p id="abilities"></p>
+        </div>
+        </div>
+        <div id="regional-info">
+            <div id="region1">
+                <img class="regional-sprite" id="regional-front1">
+                <p id="regional-poke-place1"></p>
+                <p id="regional-poke-id1"></p>
+            </div>
+            <div id="region2">
+                <img class="regional-sprite" id="regional-front2">
+                <p id="regional-poke-place2"></p>
+                <p id="regional-poke-id2"></p>
+            </div>
+            <div id="region3">
+                <img class="regional-sprite" id="regional-front3">
+                <p id="regional-poke-place3"></p>
+                <p id="regional-poke-id3"></p>
+            </div>
+        </div>
+        <p class="too-many-forms"></p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: 'kode mono';
+    text-align: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: fit-content;
+    background-color: white;
+    border: 5px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokeballs {
+    mix-blend-mode: multiply;
+    height: 3em;
+    background-color: white;
+    margin: 2em 1em 0 1em;
+}
+
+h1 {
+    font-family: 'rubik mono one';
+    font-size: 3em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sprite {
+    height: 200px;
+    image-rendering: pixelated;
+}
+
+#pokemon-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    margin-right: 1.5em;
+}
+
+#normal-sprites #shiny-sprites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#pokemon-name {
+    font-size: 3em;
+    text-transform: capitalize;
+    justify-content: space-around;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+#stats {
+    width: 250px;
+    font-size: 1.25em;
+    text-align: right;
+}
+
+#gen-info {
+    width: 250px;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+#pokemon-info {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: center;
+    margin-top: .25em;
+}
+
+#search-bar {
+    font-size: x-large;
+    font-family: 'kode mono';
+    border: none;
+    border-bottom: 4px dotted black;
+    text-align: center;
+    background-color: transparent
+}
+
+#btn {
+    font-family: 'kode mono';
+    font-size: x-large;
+    background-color: transparent;
+    border: none
+}
+
+.regional-sprite {
+    height: 50px;
+}
+
+#regional-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.too-many-forms {
+    font-size: xx-large;
+    /*margin-top: -110px;*/
+}
